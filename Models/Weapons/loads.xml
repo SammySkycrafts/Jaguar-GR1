@@ -14,18 +14,18 @@
     </model>
     <!-- pylon options -->
     <!--
-                 (0)             (6) 
+                 (0)             (6)
                  1.L     /-\     1.R
          _________|_____/top\_____|_________
-            |     |     \___/     |    |  
+            |     |     \___/     |    |
            2.L   3.L      |      3.R  2.R
            (1)   (2)   Center    (4)  (5)
-                         (3) 
+                         (3)
   -->
     <!--station left 1 -->
     <model>
         <name>left-AIM-9-pos-1</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM9.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM-9/AIM-9L.xml</path>
         <offsets>
             <x-m>2.140</x-m>
             <y-m>-2.050</y-m>
@@ -83,7 +83,7 @@
     <!-- station left 2 -->
     <model>
         <name>left-AIM-9-pos-2</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM9.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM-9/AIM-9L.xml</path>
         <offsets>
             <x-m>2.400</x-m>
             <y-m>-3.09</y-m>
@@ -139,7 +139,7 @@
     </animation>-->
     <model>
         <name>left-MK82-pos-2</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/single-MK-82-LD.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/MK-83/MK-83.xml</path>
         <offsets>
             <x-m>2.400</x-m>
             <y-m>-3.09</y-m>
@@ -299,7 +299,7 @@
     </animation>-->
     <model>
         <name>left-MK-82-pos-3</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/single-MK-82-LD.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/MK-83/MK-83.xml</path>
         <offsets>
             <x-m>2.000</x-m>
             <y-m>-2.050</y-m>
@@ -337,11 +337,11 @@
     </animation>
     <model>
         <name>left-MK82x2-pos-3</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/mk82x2w.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/MK-83/duorack-3.xml</path>
         <offsets>
-            <x-m>-5.500</x-m>
-            <y-m>-0.35</y-m>
-            <z-m>0.17</z-m>
+            <x-m>2.000</x-m>
+            <y-m>-2.059</y-m>
+            <z-m>-0.17</z-m>
             <pitch-deg>-0.865</pitch-deg>
         </offsets>
     </model>
@@ -445,11 +445,11 @@
     </animation>
     <model>
         <name>2x-MK-82</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/mk82x2c.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/MK-83/MK-83.xml</path>
         <offsets>
-            <x-m>-6.400</x-m>
-            <y-m>1.400</y-m>
-            <z-m>-0.720</z-m>
+            <x-m>0.400</x-m>
+            <y-m>0.00</y-m>
+            <z-m>-1.452</z-m>
             <pitch-deg>-0.865</pitch-deg>
         </offsets>
     </model>
@@ -605,7 +605,7 @@
     </animation>-->
     <model>
         <name>right-MK-82-pos-3</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/single-MK-82-LD.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/MK-83/MK-83.xml</path>
         <offsets>
             <x-m>2.000</x-m>
             <y-m>2.050</y-m>
@@ -643,11 +643,11 @@
     </animation>
     <model>
         <name>right-MK82x2-pos-3</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/mk82x2w.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/MK-83/duorack-3.xml</path>
         <offsets>
-            <x-m>-5.500</x-m>
-            <y-m>3.75</y-m>
-            <z-m>0.17</z-m>
+            <x-m>2.000</x-m>
+            <y-m>2.059</y-m>
+            <z-m>-0.17</z-m>
             <pitch-deg>-0.865</pitch-deg>
         </offsets>
     </model>
@@ -734,11 +734,11 @@
     <!--station right 2 -->
     <model>
         <name>right-AIM-9-pos-2</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM9.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM-9/AIM-9L.xml</path>
         <offsets>
-            <x-m>2.000</x-m>
+            <x-m>2.470</x-m>
             <y-m>3.09</y-m>
-            <z-m>-0.520</z-m>
+            <z-m>-0.475</z-m>
             <pitch-deg>-1.1</pitch-deg>
         </offsets>
     </model>
@@ -790,7 +790,7 @@
     </animation>-->
     <model>
         <name>right-MK82-pos-2</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/single-MK-82-LD.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/MK-83/MK-83.xml</path>
         <offsets>
             <x-m>2.400</x-m>
             <y-m>3.09</y-m>
@@ -881,7 +881,7 @@
     <!--station right 1 -->
     <model>
         <name>right-AIM-9-pos-1</name>
-        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM9.xml</path>
+        <path>Aircraft/Jaguar-GR1/Models/Weapons/AIM-9/AIM-9L.xml</path>
         <offsets>
             <x-m>2.140</x-m>
             <y-m>2.050</y-m>
